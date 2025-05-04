@@ -39,25 +39,26 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 
 ## Table of Contents
 - [:gift: Surveys](#gift-surveys)
-- [:wrench: Agent Capabilities Evaluation (§2)](#wrench-agent-capabilities-evaluation-§2)
-  - [:world_map: Planning and Multi-Step Reasoning (§2.1)](#world_map-planning-and-multi-step-reasoning-§21)
-  - [:telephone_receiver: Function Calling & Tool Use (§2.2)](#telephone_receiver-function-calling--tool-use-§22)
-  - [:thinking: Self-Reflection (§2.3)](#thinking-self-reflection-§23)
-  - [:floppy_disk: Memory (§2.4)](#floppy_disk-memory-§24)
-- [:dart: Application-Specific Agent Evaluation (§3)](#dart-application-specific-agent-evaluation-§3)
-  - [:globe_with_meridians: Web Agents (§3.1)](#globe_with_meridians-web-agents-§31)
-  - [:computer: Software Engineering Agents (§3.2)](#computer-software-engineering-agents-§32)
-  - [:microscope: Scientific Agents (§3.3)](#microscope-scientific-agents-§33)
-  - [:speech_balloon: Conversational Agents (§3.4)](#speech_balloon-conversational-agents-§34)
-- [:earth_africa: Generalist Agents Evaluation (§4)](#earth_africa-generalist-agents-evaluation-§4)
-- [:building_construction: Frameworks for Agent Evaluation (§5)](#building_construction-frameworks-for-agent-evaluation-§5)
-- [:chart_with_upwards_trend: Discussion (§6)](#chart_with_upwards_trend-discussion-§6)
-  - [:chart_with_upwards_trend: Current Trends(§6.1)](#61-current-trends)
-  - [:compass: Emergent Directions(§6.2)](#62-emergent-directions)
-- [:heavy_plus_sign: Adding a Benchmark](#memo-citation)
-- [:link: Other Relevant Repositories](#memo-citation)
+- [:wrench: Agent Capabilities Evaluation (§2)](#wrench-agent-capabilities-evaluation-2)
+  - [:world_map: Planning and Multi-Step Reasoning (§2.1)](#world_map-planning-and-multi-step-reasoning-21)
+  - [:telephone_receiver: Function Calling & Tool Use (§2.2)](#telephone_receiver-function-calling--tool-use-22)
+  - [:thinking: Self-Reflection (§2.3)](#thinking-self-reflection-23)
+  - [:floppy_disk: Memory (§2.4)](#floppy_disk-memory-24)
+- [:dart: Application-Specific Agent Evaluation (§3)](#dart-application-specific-agent-evaluation-3)
+  - [:globe_with_meridians: Web Agents (§3.1)](#globe_with_meridians-web-agents-31)
+  - [:computer: Software Engineering Agents (§3.2)](#computer-software-engineering-agents-32)
+  - [:microscope: Scientific Agents (§3.3)](#microscope-scientific-agents-33)
+  - [:speech_balloon: Conversational Agents (§3.4)](#speech_balloon-conversational-agents-34)
+- [:earth_africa: Generalist Agents Evaluation (§4)](#earth_africa-generalist-agents-evaluation-4)
+- [:building_construction: Frameworks for Agent Evaluation (§5)](#building_construction-frameworks-for-agent-evaluation-5)
+- [:gym: Gym-like Environments (§5.1)](#gym-gym-like-environments-51)
+- [:chart_with_upwards_trend: Discussion (§6)](#chart_with_upwards_trend-discussion-6)
+  - [:arrow_right: Current Trends(§6.1)](#arrow_right-current-trends-61)
+  - [:compass: Emergent Directions(§6.2)](#compass-emergent-directions-62)
+- [:heavy_plus_sign: Adding a Benchmark / Paper](#heavy_plus_sign-adding-a-benchmark--paper)
+- [:link: Other Relevant Repositories](#link-other-relevant-repositories)
 - [:memo: Citation](#memo-citation)
-
+:arrow_right: Current Trends (§6.1)
 ### Other Relevant Repositories
 
 
@@ -76,14 +77,14 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 *   **Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge**, arXiv 2018 [[paper]](https://arxiv.org/abs/1803.05457)
 *   **StrategyQA: Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies**, TACL 2021 [[paper]](https://aclanthology.org/2021.tacl-1.21/)
 *   **Measuring Mathematical Problem Solving With the MATH Dataset**, NeurIPS 2021 [[paper]](https://arxiv.org/abs/2103.03874)
-*   **GSM8K: A Dataset of Grade School Math Word Problems**, arXiv 2021 [[paper]](https://arxiv.org/abs/2110.14168)
-*   **Tree of Thoughts: Deliberate Problem Solving with Large Language Models**, NeurIPS 2023 [[paper]](https://arxiv.org/abs/2305.10601)
+*   **GSM8K: Training Verifiers to Solve Math Word Problems**, arXiv 2021 [[paper]](https://arxiv.org/abs/2110.14168)
+*   **Game of 24: Tree of Thoughts: Deliberate Problem Solving with Large Language Models**, NeurIPS 2023 [[paper]](https://arxiv.org/abs/2305.10601)
 *   **MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback**, arXiv 2023 [[paper]](https://arxiv.org/abs/2309.10691)
 *   **PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change**, NeurIPS 2023 [[paper]](https://arxiv.org/abs/2206.10498)
 *   **FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents**, arXiv 2024 [[paper]](https://arxiv.org/abs/2406.14884)
 *   **FOLIO: Natural Language Reasoning with First-Order Logic**, EMNLP 2022 Findings [[paper]](https://arxiv.org/abs/2209.00840)
 *   **P-FOLIO: Evaluating and Improving Logical Reasoning with Abundant Human-Written Reasoning Chains**, EMNLP 2024 Findings [[paper]](https://aclanthology.org/2024.findings-emnlp.966/)
-*   **MultiRC: Looking Beyond the Surface: A Challenge Set for Reading Comprehension over Multiple Sentences**, EMNLP 2018 [[paper]](https://aclanthology.org/N18-1023/)
+*   **MultiRC: Looking Beyond the Surface: A Challenge Set for Reading Comprehension over Multiple Sentences**, NAACL 2018 [[paper]](https://aclanthology.org/N18-1023/)
 *   **MUSR: Testing the Limits of Chain-of-Thought with Multistep Soft Reasoning**, arXiv 2023 [[paper]](https://arxiv.org/abs/2310.16049)
 *   **Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them**, arXiv 2022 [[paper]](https://arxiv.org/abs/2210.09261)
 *   **ToolEmu: Identifying the Risks of LM Agents with an LM-Emulated Sandbox**, arXiv 2023 [[paper]](https://arxiv.org/abs/2309.15817)
@@ -93,9 +94,9 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 
 ### :telephone_receiver: Function Calling & Tool Use (§2.2)
 *   **BFCL: Berkeley Function Calling Leaderboard**, Blog Post 2024 [[link]](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html)
-*   **ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs**, arXiv 2023 [[paper]](https://arxiv.org/abs/2307.16789)
+*   **ToolBench: ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs**, arXiv 2023 [[paper]](https://arxiv.org/abs/2307.16789)
 *   **ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases**, arXiv 2023 [[paper]](https://arxiv.org/abs/2306.05301)
-*   **API-Bank: A Benchmark for Tool-Augmented LLMs**, EMNLP 2023 [[paper]](https://arxiv.org/abs/2304.08244)
+*   **API-Bank: A Benchmark for Tool-Augmented LLMs**, EMNLP 2023 [[paper]](https://aclanthology.org/2023.emnlp-main.187/)
 *   **NexusRaven-V2: Surpassing GPT-4 for Zero-Shot Function Calling**, Blog Post 2023 [[link]](https://nexusflow.ai/blogs/ravenv2)
 *   **Seal-Tools: Self-Instruct Tool Learning Dataset for Agent Tuning and Detailed Benchmark**, arXiv 2024 [[paper]](https://arxiv.org/abs/2405.08355)
 *   **ComplexFuncBench: Exploring Multi-step and Constrained Function Calling under Long-Context Scenario**, arXiv 2025 [[paper]](https://arxiv.org/abs/2501.10132)
@@ -105,6 +106,7 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 *   **StableToolBench: Towards Stable Large-scale Benchmarking on Tool Learning of Large Language Models**, arXiv 2024 [[paper]](https://arxiv.org/abs/2403.07714)
 *   **NESTFUL: A Benchmark for Evaluating LLMs on Nested Sequences of API Calls**, arXiv 2024 [[paper]](https://arxiv.org/abs/2409.03797)
 *   **API-BLEND: A Comprehensive Corpora for Training and Benchmarking API LLMs**, arXiv 2024 [[paper]](https://arxiv.org/abs/2402.15491)
+*   **APIBench: Revisiting, Benchmarking and Exploring API Recommendation: How Far Are We?** [[paper]](https://arxiv.org/abs/2112.12653)
 
 ### :thinking: Self-Reflection (§2.3)
 *   **LLF-Bench: Benchmark for Interactive Learning from Language Feedback**, arXiv 2023 [[paper]](https://arxiv.org/abs/2312.06853)
@@ -119,7 +121,7 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 *   **Self-reflection makes Large Language Models safer, less biased, and ideologically neutral**, arXiv 2024 (Liu et al.) [[paper]](https://arxiv.org/abs/2406.10400)
 
 ### :floppy_disk: Memory (§2.4)
-*   **The NarrativeQA Reading Comprehension Challenge**, TACL 2018 [[paper]](https://aclanthology.org/Q18-1023/)
+*   **ReadAgent: The NarrativeQA Reading Comprehension Challenge**, TACL 2018 [[paper]](https://aclanthology.org/Q18-1023/)
 *   **QMSum: A New Benchmark for Query-based Multi-domain Meeting Summarization**, NAACL 2021 [[paper]](https://arxiv.org/abs/2104.05938)
 *   **QUALITY: Question Answering with Long Input Texts, Yes!**, NAACL 2022 Findings [[paper]](https://arxiv.org/abs/2112.08608)
 *   **RAISE: From LLM to Conversational Agent: A Memory Enhanced Architecture with Fine-Tuning of Large Language Models**, arXiv 2024 [[paper]](https://arxiv.org/abs/2401.02777)
@@ -161,7 +163,7 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 *   **SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents**, NeurIPS 2024 [[paper]](https://arxiv.org/abs/2406.12952)
 *   **IT-Bench: Evaluating AI Agents Across Diverse Real-World IT Automation Tasks**, arXiv 2025 [[paper]](https://arxiv.org/abs/2502.05352)
 *   **SWELancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2502.12115)
-*   **AgentBench: Evaluating LLMs as Agents** [[paper]](https://arxiv.org/abs/2308.03688)
+*   **AgentBench: Evaluating LLMs as Agents**, ICLR 2024 [[paper]](https://arxiv.org/abs/2308.03688)
 
 ### :microscope: Scientific Agents (§3.3)
 *   **ScienceQA: Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering**, NeurIPS 2022 [[paper]](https://arxiv.org/abs/2209.09513)
@@ -218,14 +220,7 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 ### Trends & Directions
 *(Refer to Section 6 in the paper for detailed discussion)*
 
-*   **Realistic and Challenging Evaluation:** Shift from static/simple to dynamic/complex environments (e.g., MiniWob -> WebArena, basic coding -> SWE-bench). Increasing task difficulty.
-*   **Live Benchmarks:** Need for continuously updated benchmarks (e.g., BFCL versions, SWE-bench variants, IntellAgent).
-*   **Advancing Granular Evaluation:** Moving beyond end-to-end metrics to finer-grained, step-by-step analysis (e.g., WebCanvas node completion, Galileo action advancement).
-*   **Cost and Efficiency Metrics:** Need for standardized metrics beyond accuracy (e.g., token usage, latency, API costs).
-*   **Scaling & Automating Evaluation:** Leveraging synthetic data (IntellAgent, Mosaic AI) and Agent-as-a-Judge approaches.
-*   **Safety and Compliance:** Growing need for benchmarks focusing on safety, trustworthiness, and policy adherence (e.g., AgentHarm, ST-WebAgentBench).
-
-### :chart_with_upwards_trend: Current Trends (§6.1)
+### :arrow_right: Current Trends (§6.1)
 
 #### Realistic and Challenging Evaluation
 The field is moving beyond simplified, static environments towards benchmarks reflecting real-world complexity and increased difficulty.
@@ -252,7 +247,7 @@ Developing methods to reduce reliance on manual annotation and enable continuous
     *   **IntellAgent**: [[paper]](https://arxiv.org/abs/2501.11067)
     *   **Mosaic AI Agent Evaluation**: [[link]](https://docs.databricks.com/aws/en/generative-ai/agent-evaluation)
 *   **Agent-as-a-Judge:**
-    *   **Agent-as-a-Judge**: Evaluate agents with agents (Zhuge et al., 2024) [[paper]](https://arxiv.org/abs/2410.10934)
+    *   **Agent-as-a-Judge: Evaluate agents with agents** [[paper]](https://arxiv.org/abs/2410.10934)
 
 #### Safety and Compliance
 Growing need for benchmarks that specifically test safety, trustworthiness, robustness against adversarial inputs, and adherence to policies.
@@ -260,7 +255,7 @@ Growing need for benchmarks that specifically test safety, trustworthiness, robu
 *   **ST-WebAgentBench**: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents [[paper]](https://arxiv.org/abs/2410.06703)
 *   **Multi-Agent Risks from Advanced AI:** [[paper]](https://arxiv.org/abs/2502.14143)
 
-### :heavy_plus_sign: Adding a Benchmark / Paper
+## :heavy_plus_sign: Adding a Benchmark / Paper
 
 We aim to keep this list comprehensive and up-to-date within the scope of **LLM-based Agent Evaluation**, as covered in our survey. If you know of a relevant benchmark, evaluation framework, or significant paper that fits this focus and is missing from the list, we welcome your suggestions!
 
@@ -282,7 +277,7 @@ We aim to keep this list comprehensive and up-to-date within the scope of **LLM-
 
 We appreciate your contributions to making this a valuable resource for the community!
 
-### :link: Other Relevant Repositories
+## :link: Other Relevant Repositories
 
 While this repository mirrors our survey's scope, other excellent repositories cover LLM Agents more broadly or from different angles:
 
