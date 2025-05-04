@@ -17,9 +17,12 @@
 <div align="center">
     <!-- === UPDATE LINKS === -->
     <a href="https://arxiv.org/abs/2503.16416"><img src="https://img.shields.io/badge/arXiv-2503.16416-b31b1b" alt="Paper"></a>
-    <a href="https://github.com/Asaf-Yehudai/LLM-Agent-Evaluation-Survey"><img src="https://img.shields.io/github/last-commit/Asaf-Yehudai/LLM-Agent-Evaluation-Survey?color=blue" alt="Github Last Commit"></a>
-    <a href="https://github.com/Asaf-Yehudai/LLM-Agent-Evaluation-Survey/blob/main/LICENSE"> <img alt="License" src="https://img.shields.io/github/license/Asaf-Yehudai/LLM-Agent-Evaluation-Survey?color=green"> </a>
-    <!-- === UPDATE LINKS === -->
+
+[comment]: <> (    <a href="https://github.com/Asaf-Yehudai/LLM-Agent-Evaluation-Survey"><img src="https://img.shields.io/github/last-commit/Asaf-Yehudai/LLM-Agent-Evaluation-Survey?color=blue" alt="Github Last Commit"></a>)
+
+[comment]: <> (    <a href="https://github.com/Asaf-Yehudai/LLM-Agent-Evaluation-Survey/blob/main/LICENSE"> <img alt="License" src="https://img.shields.io/github/license/Asaf-Yehudai/LLM-Agent-Evaluation-Survey?color=green"> </a>)
+
+[comment]: <> (    <!-- === UPDATE LINKS === -->)
 </div>
 
 ### About This Repository
@@ -51,14 +54,13 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
   - [:speech_balloon: Conversational Agents (§3.4)](#speech_balloon-conversational-agents-34)
 - [:earth_africa: Generalist Agents Evaluation (§4)](#earth_africa-generalist-agents-evaluation-4)
 - [:building_construction: Frameworks for Agent Evaluation (§5)](#building_construction-frameworks-for-agent-evaluation-5)
-- [:gym: Gym-like Environments (§5.1)](#gym-gym-like-environments-51)
+- [:video_game: Gym-like Environments (§5.1)](#gym-gym-like-environments-51)
 - [:chart_with_upwards_trend: Discussion (§6)](#chart_with_upwards_trend-discussion-6)
   - [:arrow_right: Current Trends(§6.1)](#arrow_right-current-trends-61)
   - [:compass: Emergent Directions(§6.2)](#compass-emergent-directions-62)
 - [:heavy_plus_sign: Adding a Benchmark / Paper](#heavy_plus_sign-adding-a-benchmark--paper)
 - [:link: Other Relevant Repositories](#link-other-relevant-repositories)
 - [:memo: Citation](#memo-citation)
-:arrow_right: Current Trends (§6.1)
 ### Other Relevant Repositories
 
 
@@ -210,7 +212,7 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 *   **LangChain AgentEvals**: [[link]](https://github.com/langchain-ai/agentevals)
 *   **Arize AI Evaluation**: [[link]](https://docs.arize.com/arize/concepts/agent-evaluation)
 
-### :gym: Gym-like Environments (§5.1)
+### :video_game: Gym-like Environments (§5.1)
 *   **BrowserGym** [[paper]](https://arxiv.org/abs/2412.05467)
 *   **MLGym** [[paper]](https://arxiv.org/abs/2502.14499)
 *   **SWE-Gym** [[paper]](https://arxiv.org/abs/2412.21139)
