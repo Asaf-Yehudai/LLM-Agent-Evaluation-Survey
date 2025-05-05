@@ -87,6 +87,7 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 *   **P-FOLIO: Evaluating and Improving Logical Reasoning with Abundant Human-Written Reasoning Chains**, EMNLP 2024 Findings [[paper]](https://aclanthology.org/2024.findings-emnlp.966/)
 *   **ACPBench: Reasoning about Action, Change, and Planning**, arXiv 2024 [[paper]](https://arxiv.org/abs/2410.05669)
 *   **Natural Plan: Benchmarking LLMs on Natural Language Planning**, arXiv 2024 [[paper]](https://arxiv.org/abs/2406.04520)
+*   **LogicBench: Towards Systematic Evaluation of Logical Reasoning Ability of Large Language Models**, ACL 2024 [[paper]](https://arxiv.org/abs/2404.15522)
 
 ### :telephone_receiver: Function Calling & Tool Use (§2.2)
 *   **APIBench: Revisiting, Benchmarking and Exploring API Recommendation: How Far Are We?** arXiv 2021 [[paper]](https://arxiv.org/abs/2112.12653)
@@ -147,6 +148,9 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 *   **WorkArena++: Towards Compositional Planning and Reasoning-Based Common Knowledge Work Tasks**, NeurIPS 2024 [[paper]](https://arxiv.org/abs/2407.05291)
 *   **AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?**, arXiv 2024 [[paper]](https://arxiv.org/abs/2407.15711)
 *   **ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents**, arXiv 2024 [[paper]](https://arxiv.org/abs/2410.06703)
+*   **VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks**, arXiv 2025 [[paper]](https://arxiv.org/abs/2410.19100)
+*   **BEARCUBS: A benchmark for computer-using web agents**, arXiv 2025 [[paper]](https://arxiv.org/abs/2503.07919)
+
 
 ### :computer: Software Engineering Agents (§3.2)
 *   **HumanEval: Evaluating Large Language Models Trained on Code**, arXiv 2021 [[paper]](https://arxiv.org/abs/2107.03374)
@@ -158,8 +162,10 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 *   **SWE-bench+**: Enhanced Coding Benchmark for LLMs, arXiv 2024 [[paper]](https://arxiv.org/abs/2410.06992)
 *   **SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?**, arXiv 2024 [[paper]](https://arxiv.org/abs/2410.03859)
 *   **TDD-Bench Verified: Can LLMs Generate Tests for Issues Before They Get Resolved?**, arXiv 2024 [[paper]](https://arxiv.org/abs/2412.02883)
+*   **Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale**, arXiv 2024 [[paper]](https://arxiv.org/abs/2409.08264)
 *   **IT-Bench: Evaluating AI Agents Across Diverse Real-World IT Automation Tasks**, arXiv 2025 [[paper]](https://arxiv.org/abs/2502.05352)
 *   **SWELancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2502.12115)
+*   **Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models**, ICLR 2025 [[paper]](https://arxiv.org/abs/2408.08926)
 
 ### :microscope: Scientific Agents (§3.3)
 *   **QASPER: A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers**, NAACL 2021 [[paper]](https://arxiv.org/abs/2105.03011)
@@ -175,6 +181,8 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 *   **ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery**, arXiv 2024 [[paper]](https://arxiv.org/abs/2410.05080)
 *   **AAAR-1.0: Assessing AI's Potential to Assist Research**, arXiv 2024 [[paper]](https://arxiv.org/abs/2410.22394)
 *   **MLGym-Bench: A New Framework and Benchmark for Advancing AI Research Agents**, arXiv 2025 [[paper]](https://arxiv.org/abs/2502.14499)
+*   **PaperBench: Evaluating AI's Ability to Replicate AI Research**, arXiv 2025 [[paper]](https://arxiv.org/abs/2504.01848)
+
 
 ### :speech_balloon: Conversational Agents (§3.4)
 *   **MultiWOZ: A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling**, EMNLP 2018 [[paper]](https://aclanthology.org/D18-1547/)
@@ -192,8 +200,10 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 *   **OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments**, NeurIPS 2024 Datasets Track [[paper]](https://arxiv.org/abs/2404.07972)
 *   **Galileo's Agent Leaderboard**: HuggingFace Space (c. 2024) [[link]](https://huggingface.co/spaces/galileo-ai/agent-leaderboard)
 *   **AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents**, ACL 2024 [[paper]](https://arxiv.org/abs/2407.18901)
+*   **AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents**,  [[paper]](https://arxiv.org/abs/2405.14573)
 *   **CRMArena: Understanding the Capacity of LLM Agents to Perform Professional CRM Tasks in Realistic Environments**, arXiv 2024 [[paper]](https://arxiv.org/abs/2411.02305)
 *   **TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks**, arXiv 2024 [[paper]](https://arxiv.org/abs/2412.14161)
+*   **AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents**, NeurIPS 2024 [[paper]](https://arxiv.org/abs/2401.13178)
 *   **HAL: Holistic Agent Leaderboard**, HAL leaderboard 2025 [[paper]](https://hal.cs.princeton.edu/)
 
 ## :building_construction: Frameworks for Agent Evaluation (§5)
@@ -220,7 +230,6 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 
 #### Realistic and Challenging Evaluation
 The field is moving beyond simplified, static environments towards benchmarks reflecting real-world complexity and increased difficulty.
-*   **Shift Examples:** MiniWob -> WebArena/VisualWebArena; Basic Coding -> SWE-Bench/SWELancer; Simple Scientific -> CORE-Bench/DiscoveryWorld.
 
 #### Live Benchmarks
 Static benchmarks quickly become outdated. There is a trend towards adaptive benchmarks that incorporate live data or continuous updates to maintain relevance.
@@ -250,6 +259,7 @@ Growing need for benchmarks that specifically test safety, trustworthiness, robu
 *   **AgentHarm**: A Benchmark for Measuring Harmfulness of LLM Agents [[paper]](https://arxiv.org/abs/2410.09024)
 *   **ST-WebAgentBench**: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents [[paper]](https://arxiv.org/abs/2410.06703)
 *   **Multi-Agent Risks from Advanced AI:** [[paper]](https://arxiv.org/abs/2502.14143)
+*   **Evaluating Cultural and Social Awareness of LLM Web Agents** [[paper]](https://arxiv.org/abs/2410.23252)
 
 ## :heavy_plus_sign: Adding a Benchmark / Paper
 
