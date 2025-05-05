@@ -59,7 +59,7 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 
 
 ## :gift: Surveys
-*   **Survey on Evaluation of LLM-based Agents**, arXiv 2024 [[paper]](https://arxiv.org/abs/2503.16416) *(This work)*
+*   **Survey on Evaluation of LLM-based Agents**, arXiv 2025 [[paper]](https://arxiv.org/abs/2503.16416) *(This work)*
 *   **The Rise and Potential of Large Language Model Based Agents: A Survey**, arXiv 2023 [[paper]](https://arxiv.org/abs/2309.07864)
 *   **A Survey on Large Language Model based Autonomous Agents**, arXiv 2023 [[paper]](https://arxiv.org/abs/2308.11432)
 *   **Understanding the planning of LLM agents: A survey**, arXiv 2024 [[paper]](https://arxiv.org/abs/2402.02716)
