@@ -224,7 +224,7 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 *   **MLGym: A New Framework and Benchmark for Advancing AI Research Agents** [[paper]](https://arxiv.org/abs/2502.14499)
 *   **SWE-Gym: Training Software Engineering Agents and Verifiers with SWE-Gym** [[paper]](https://arxiv.org/abs/2412.21139)
 *   **PersonaGym: Evaluating Persona Agents and LLMs** [[paper]](https://arxiv.org/abs/2407.18416)
-
+*   **RepoST: Scalable Repository-Level Coding Environment Construction with Sandbox Testing** [[paper]](https://arxiv.org/abs/2503.07358)
 
 ## :chart_with_upwards_trend: Discussion (§6)
 
@@ -261,10 +261,11 @@ Developing methods to reduce reliance on manual annotation and enable continuous
 
 #### Safety and Compliance
 Growing need for benchmarks that specifically test safety, trustworthiness, robustness against adversarial inputs, and adherence to policies.
-*   **AgentHarm**: A Benchmark for Measuring Harmfulness of LLM Agents [[paper]](https://arxiv.org/abs/2410.09024)
-*   **ST-WebAgentBench**: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents [[paper]](https://arxiv.org/abs/2410.06703)
-*   **Multi-Agent Risks from Advanced AI:** [[paper]](https://arxiv.org/abs/2502.14143)
-*   **Evaluating Cultural and Social Awareness of LLM Web Agents** [[paper]](https://arxiv.org/abs/2410.23252)
+*   **AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents**, ICLR 2025 [[paper]](https://arxiv.org/abs/2410.09024)
+*   **ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents**, ICLR 2025 [[paper]](https://arxiv.org/abs/2410.06703)
+*   **Multi-Agent Risks from Advanced AI**, arXiv 2025 [[paper]](https://arxiv.org/abs/2502.14143)
+*   **Evaluating Cultural and Social Awareness of LLM Web Agents**, NAACL-findings 2025 [[paper]](https://arxiv.org/abs/2410.23252)
+*   **Breaking ReAct Agents: Foot-in-the-Door Attack Will Get You In**, NAACL 2025 [[paper]](https://aclanthology.org/2025.findings-naacl.363)
 
 ## :heavy_plus_sign: Adding a Benchmark / Paper
 
