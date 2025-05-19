@@ -218,6 +218,7 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 *   **LangChain AgentEvals**: [[link]](https://github.com/langchain-ai/agentevals)
 *   **Arize AI Evaluation**: [[link]](https://docs.arize.com/arize/concepts/agent-evaluation)
 *   **W&B Weave**: [[link]](https://wandb.ai/site/weave/)
+*   **Comet Opik** [[link]](https://github.com/comet-ml/opik)
 
 ### :video_game: Gym-like Environments (§5.1)
 *   **BrowserGym: The BrowserGym Ecosystem for Web Agent Research** [[paper]](https://arxiv.org/abs/2412.05467)
