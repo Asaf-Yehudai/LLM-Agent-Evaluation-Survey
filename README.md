@@ -4,20 +4,9 @@
 
 <div align="center">
   Based on the Survey Paper: <br />
-  <b>Survey on Evaluation of LLM-based Agents</b> (arXiv 2025)
+  <b>Survey on Evaluation of LLM-based Agents</b>
 </div>
 
-<div align="center">
-  <b>Asaf Yehudai¹², Lilach Eden², Alan Li³, Guy Uziel², Yilun Zhao³, Roy Bar-Haim², 
-    Arman Cohan³, Michal Shmueli-Scheuer²</b><br />
-  <small>¹The Hebrew University of Jerusalem | ²IBM Research | ³Yale University</small>
-</div>
-<br />
-
-<div align="center">
-    <!-- === UPDATE LINKS === -->
-    <a href="https://arxiv.org/abs/2503.16416"><img src="https://img.shields.io/badge/arXiv-2503.16416-b31b1b" alt="Paper"></a>
-</div>
 
 ### About This Repository
 
@@ -31,7 +20,6 @@ The selection criteria focus on works discussed within the survey, covering:
 
 Our goal is to map the rapidly evolving landscape of agent evaluation, highlight key trends, and identify current limitations as discussed in the survey.
 
-[comment]: <> (*&#40;Note: The initial version is based on arXiv:2503.16416v1 dated 20 Mar 2025. It will be updated as the survey evolves or upon publication.&#41;*)
 
 
 ## Table of Contents
@@ -59,7 +47,6 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 
 
 ## :gift: Surveys
-*   **Survey on Evaluation of LLM-based Agents**, arXiv 2025 [[paper]](https://arxiv.org/abs/2503.16416) *(This work)*
 *   **The Rise and Potential of Large Language Model Based Agents: A Survey**, arXiv 2023 [[paper]](https://arxiv.org/abs/2309.07864)
 *   **A Survey on Large Language Model based Autonomous Agents**, arXiv 2023 [[paper]](https://arxiv.org/abs/2308.11432)
 *   **Understanding the planning of LLM agents: A survey**, arXiv 2024 [[paper]](https://arxiv.org/abs/2402.02716)
@@ -305,19 +292,3 @@ While this repository mirrors our survey's scope, other excellent repositories c
 * [nuster1128/LLM_Agent_Memory_Survey](https://github.com/nuster1128/LLM_Agent_Memory_Survey) (Memory) <a href="https://github.com/nuster1128/LLM_Agent_Memory_Survey"><img src="https://img.shields.io/github/last-commit/nuster1128/LLM_Agent_Memory_Survey?color=blue" alt="Github"></a>
 * [teacherpeterpan/self-correction-llm-papers](https://github.com/teacherpeterpan/self-correction-llm-papers) (Self-Correction) <a href="https://github.com/teacherpeterpan/self-correction-llm-papers"><img src="https://img.shields.io/github/last-commit/teacherpeterpan/self-correction-llm-papers?color=blue" alt="Github"></a>
 * [git-disl/awesome-LLM-game-agent-papers](https://github.com/git-disl/awesome-LLM-game-agent-papers) (Gaming) <a href="https://github.com/git-disl/awesome-LLM-game-agent-papers"><img src="https://img.shields.io/github/last-commit/git-disl/awesome-LLM-game-agent-papers?color=blue" alt="Github"></a>
-
-
-## :memo: Citation
-
-If you find this survey or repository helpful, please cite the paper:
-
-```bibtex
-@misc{yehudai2025survey,
-      title={Survey on Evaluation of LLM-based Agents},
-      author={Asaf Yehudai and Lilach Eden and Alan Li and Guy Uziel and Yilun Zhao and Roy Bar-Haim and Arman Cohan and Michal Shmueli-Scheuer},
-      year={2025},
-      eprint={2503.16416},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2503.16416}
-}
