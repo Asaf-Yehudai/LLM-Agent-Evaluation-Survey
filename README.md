@@ -59,6 +59,8 @@ Our goal is to map the rapidly evolving landscape of agent evaluation, highlight
 
 
 ## :gift: Surveys
+*   **A Survey on the Safety and Security Threats of Computer-Using Agents:
+JARVIS or Ultron?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2505.10924)
 *   **Survey on Evaluation of LLM-based Agents**, arXiv 2025 [[paper]](https://arxiv.org/abs/2503.16416) *(This work)*
 *   **The Rise and Potential of Large Language Model Based Agents: A Survey**, arXiv 2023 [[paper]](https://arxiv.org/abs/2309.07864)
 *   **A Survey on Large Language Model based Autonomous Agents**, arXiv 2023 [[paper]](https://arxiv.org/abs/2308.11432)
