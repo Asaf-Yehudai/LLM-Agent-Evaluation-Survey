@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="654b2b50-bd75-4191-9b21-3a19dc7c3c83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tutorials/IJCAI-tutorial-2025.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutorials/IJCAI-tutorial-2025.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +70,7 @@
       <workItem from="1749560128422" duration="5270000" />
       <workItem from="1749637206495" duration="1451000" />
       <workItem from="1749638714179" duration="532000" />
+      <workItem from="1749641277227" duration="141000" />
     </task>
     <servers />
   </component>
