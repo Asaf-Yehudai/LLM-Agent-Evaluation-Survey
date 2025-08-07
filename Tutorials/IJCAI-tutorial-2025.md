@@ -97,6 +97,8 @@ This tutorial will present the current state-of-the-art and cutting-edge researc
 
 **Lilach Eden** is a Research Staff Member in the Language Technologies group at IBM Research. Her areas of interest lie at the intersection of real-world applications and academic research in Natural Language Processing. Her work focuses on computational argumentation technologies, automatic opinion summarization, and generative AI evaluation, with her current research centered on agent evaluation. Lilach earned her M.Sc from The Hebrew University in 2020.
 
+**Alan Li** is a PhD student of Computer Science at Yale University, focusing on natural language processing and machine learning. His research experiences cover domain-specific post-training, modeling efficiency, and information retrieval. He has published in top NLP conferences like ACL. 
+
 **Michal Shmueli-Scheuer** is a Principal Researcher in the Language Technologies department at IBM Research AI, leading efforts in GenAI Evaluation. Her expertise spans Natural Language Generation and Natural Language Processing, with a focus on efficient and robust evaluation. She has published in leading NLP and AI conferences and journals. Michal earned her Ph.D. from the University of California, Irvine, in 2009.
 
 **Asaf Yehudai** is a Research Staff Member in NLP at IBM and a Ph.D. candidate at the Hebrew University. His research focuses on stress-testing and enhancing LLMs and agent capabilities, with publications in ACL, ICLR, NAACL, and EMNLP. He has also contributed to AI education and textbook development, combining academic rigor with practical advancements in NLP.
