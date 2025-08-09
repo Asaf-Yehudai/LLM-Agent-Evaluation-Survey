@@ -1,6 +1,6 @@
 # IJCAI Tutorial 2025; Evaluating LLM-based Agents: Foundations, Best Practices and Open Challenges
 
-A Tutorial by **Roy Bar-Haim**, **Arman Cohan**, **Lilach Eden**, **Michal Shmueli-Scheuer**, and **Asaf Yehudai**
+A Tutorial by **Roy Bar-Haim**, **Arman Cohan**, **Lilach Eden**, **Alan Li**, **Michal Shmueli-Scheuer**, and **Asaf Yehudai**
 
 *Affiliations: The Hebrew University of Jerusalem, IBM Research, Yale University*
 
