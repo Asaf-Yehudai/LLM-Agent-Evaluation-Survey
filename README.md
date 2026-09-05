@@ -172,6 +172,7 @@ JARVIS or Ultron?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2505.10924)
 *   **Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models**, ICLR 2025 [[paper]](https://arxiv.org/abs/2408.08926)
 *   **SWELancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2502.12115)
 *   **CodeARC: Benchmarking Reasoning Capabilities of LLM Agents for Inductive Program Synthesis**, arXiv 2025 [[paper]](https://arxiv.org/abs/2503.23145)
+*   **LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering**, arXiv 2026 [[paper]](https://arxiv.org/abs/2608.28281) [[code]](https://github.com/AMAP-ML/LoopArena)
 
 ### :microscope: Scientific Agents (§3.3)
 *   **QASPER: A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers**, NAACL 2021 [[paper]](https://arxiv.org/abs/2105.03011)
