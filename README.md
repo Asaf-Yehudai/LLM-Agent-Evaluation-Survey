@@ -226,6 +226,7 @@ JARVIS or Ultron?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2505.10924)
 *   **Arize AI Evaluation**: [[link]](https://docs.arize.com/arize/concepts/agent-evaluation)
 *   **W&B Weave**: [[link]](https://wandb.ai/site/weave/)
 *   **Comet Opik** [[link]](https://github.com/comet-ml/opik)
+*   **MASEval: Extending Multi-Agent Evaluation from Models to Systems**, ACL 2026 Demo [[paper]](https://aclanthology.org/2026.acl-demo.34/) [[code]](https://github.com/parameterlab/MASEval) [[docs]](https://maseval.readthedocs.io/en/stable/)
 
 ### :video_game: Gym-like Environments (§5.1)
 *   **BrowserGym: The BrowserGym Ecosystem for Web Agent Research** [[paper]](https://arxiv.org/abs/2412.05467)
