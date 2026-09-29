@@ -132,6 +132,7 @@ JARVIS or Ultron?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2505.10924)
 *   **LTMbenchmark: Beyond Prompts: Dynamic Conversational Benchmarking of Large Language Models**, arXiv 2024 [[paper]](https://arxiv.org/abs/2409.20222)
 *   **KARMA: Augmenting Embodied AI Agents with Long-and-short Term Memory Systems**, arXiv 2024 [[paper]](https://arxiv.org/abs/2409.14908)
 *   **A-Mem: Agentic Memory for LLM Agents**, arXiv 2025 [[paper]](https://arxiv.org/abs/2502.12110)
+*   **EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks**, arXiv 2026 [[paper]](https://arxiv.org/abs/2609.28236) [[code]](https://github.com/ZJU-OmniAI/Embodied-Omni/tree/main/embodied_memory)
 
 ## :dart: Application-Specific Agent Evaluation (§3)
 
