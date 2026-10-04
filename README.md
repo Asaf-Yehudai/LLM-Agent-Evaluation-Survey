@@ -203,6 +203,7 @@ JARVIS or Ultron?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2505.10924)
 *   **ALMITA: Automated test generation to evaluate tool-augmented LLMs as conversational AI agents**, GenBench @ EMNLP 2024 [[paper]](https://arxiv.org/abs/2409.15934)
 *   **LTM-Benchmark: Beyond Prompts: Dynamic Conversational Benchmarking of Large Language Models**:, arXiv 2024 [[paper]](https://arxiv.org/abs/2409.20222)
 *   **IntellAgent: A Multi-Agent Framework for Evaluating Conversational AI Systems**, arXiv 2025 [[paper]](https://arxiv.org/abs/2501.11067)
+*   **Asking for What Was Never Requested: Horizontal and Vertical Proactivity in Agents**, arXiv 2026 [[paper]](https://arxiv.org/abs/2609.37236)
 
 ## :earth_africa: Generalist Agents Evaluation (§4)
 *   **GAIA: A Benchmark for General AI Assistants**, arXiv 2023 [[paper]](https://arxiv.org/abs/2311.12983)
@@ -258,6 +259,7 @@ Moving beyond coarse, end-to-end success metrics to more detailed, step-by-step 
 *   **WebCanvas**: Benchmarking Web Agents in Online Environments (Measures key node completion) [[paper]](https://arxiv.org/abs/2406.12373)
 *   **LangSmith**: LangChain Evaluation Framework (Supports trajectory tracing) [[link]](https://docs.smith.langchain.com/)
 *   **Galileo Agentic Evaluation**: (Introduces action advancement metric) [[link]](https://www.galileo.ai/blog/introducing-agentic-evaluations)
+*   **Need graphs** (Asking for What Was Never Requested): Scores which required needs an agent pursued, from its transcript and with no LLM judge, at equal retrieval spend [[paper]](https://arxiv.org/abs/2609.37236)
 
 #### Cost and Efficiency Metrics
 Increasing focus on measuring resource consumption (tokens, time, API calls) alongside performance.
