@@ -193,6 +193,7 @@ JARVIS or Ultron?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2505.10924)
 *   **GenoTEX: An LLM Agent Benchmark for Automated Gene Expression Data Analysis**, MLCB 2025 [[paper]](https://arxiv.org/abs/2406.15341)
 *   **MLGym-Bench: A New Framework and Benchmark for Advancing AI Research Agents**, arXiv 2025 [[paper]](https://arxiv.org/abs/2502.14499)
 *   **PaperBench: Evaluating AI's Ability to Replicate AI Research**, arXiv 2025 [[paper]](https://arxiv.org/abs/2504.01848)
+*   **Time to REFLECT: Can We Trust LLM Judges for Evidence-based Research Agents?**, arXiv 2026 [[paper]](https://arxiv.org/abs/2605.19196)
 
 
 ### :speech_balloon: Conversational Agents (§3.4)
@@ -218,6 +219,9 @@ JARVIS or Ultron?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2505.10924)
 *   **AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents**, NeurIPS 2024 [[paper]](https://arxiv.org/abs/2401.13178)
 *   **HAL: Holistic Agent Leaderboard**, HAL leaderboard 2025 [[paper]](https://hal.cs.princeton.edu/)
 *   **PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting**, arXiv 2026 [[paper]](https://arxiv.org/abs/2606.08878)
+*   **General Agent Evaluation**, arXiv 2026 [[paper]](https://arxiv.org/abs/2602.22953)
+*   **Ready For General Agents? Let's Test It.**, ICLR Blogposts 2026 [[link]](https://iclr-blogposts.github.io/2026/blog/2026/general-agent-evaluation/)
+*   **Position: Agentic Systems Should be General**, ICML 2026 [[paper]](https://openreview.net/forum?id=CbJpizP0vJ)
 
 ## :building_construction: Frameworks for Agent Evaluation (§5)
 *   **Databricks Mosaic AI Agent Evaluation**:[[link]](https://docs.databricks.com/aws/en/generative-ai/agent-evaluation)
@@ -231,6 +235,8 @@ JARVIS or Ultron?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2505.10924)
 *   **W&B Weave**: [[link]](https://wandb.ai/site/weave/)
 *   **Comet Opik** [[link]](https://github.com/comet-ml/opik)
 *   **MASEval: Extending Multi-Agent Evaluation from Models to Systems**, ACL 2026 Demo [[paper]](https://aclanthology.org/2026.acl-demo.34/) [[code]](https://github.com/parameterlab/MASEval) [[docs]](https://maseval.readthedocs.io/en/stable/)
+*   **Agentic CLEAR: Automating Multi-Level Evaluation of LLM Agents**, ACL 2026 Demo [[paper]](https://arxiv.org/abs/2605.22608) [[code]](https://github.com/IBM/CLEAR)
+*   **CUBE: A Standard for Unifying Agent Benchmarks**, arXiv 2026 [[paper]](https://arxiv.org/abs/2603.15798)
 
 ### :video_game: Gym-like Environments (§5.1)
 *   **BrowserGym: The BrowserGym Ecosystem for Web Agent Research** [[paper]](https://arxiv.org/abs/2412.05467)
@@ -248,6 +254,7 @@ JARVIS or Ultron?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2505.10924)
 
 #### Realistic and Challenging Evaluation
 The field is moving beyond simplified, static environments towards benchmarks reflecting real-world complexity and increased difficulty.
+*   **A Matter of TASTE: Improving Coverage and Difficulty of Agent Benchmarks**, arXiv 2026 [[paper]](https://arxiv.org/abs/2605.28556)
 
 #### Live Benchmarks
 Static benchmarks quickly become outdated. There is a trend towards adaptive benchmarks that incorporate live data or continuous updates to maintain relevance.
@@ -260,6 +267,7 @@ Moving beyond coarse, end-to-end success metrics to more detailed, step-by-step 
 *   **LangSmith**: LangChain Evaluation Framework (Supports trajectory tracing) [[link]](https://docs.smith.langchain.com/)
 *   **Galileo Agentic Evaluation**: (Introduces action advancement metric) [[link]](https://www.galileo.ai/blog/introducing-agentic-evaluations)
 *   **Need graphs** (Asking for What Was Never Requested): Scores which required needs an agent pursued, from its transcript and with no LLM judge, at equal retrieval spend [[paper]](https://arxiv.org/abs/2609.37236)
+*   **Agentic CLEAR**: Automated multi-level error analysis of agent trajectories [[paper]](https://arxiv.org/abs/2605.22608)
 
 #### Cost and Efficiency Metrics
 Increasing focus on measuring resource consumption (tokens, time, API calls) alongside performance.
