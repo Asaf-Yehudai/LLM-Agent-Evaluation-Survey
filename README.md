@@ -268,6 +268,7 @@ Moving beyond coarse, end-to-end success metrics to more detailed, step-by-step 
 *   **Galileo Agentic Evaluation**: (Introduces action advancement metric) [[link]](https://www.galileo.ai/blog/introducing-agentic-evaluations)
 *   **Need graphs** (Asking for What Was Never Requested): Scores which required needs an agent pursued, from its transcript and with no LLM judge, at equal retrieval spend [[paper]](https://arxiv.org/abs/2609.37236)
 *   **Agentic CLEAR**: Automated multi-level error analysis of agent trajectories [[paper]](https://arxiv.org/abs/2605.22608)
+*   **TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces**, arXiv 2026 (Constructs behavior-specific benchmarks from deployment traces and scores a model's next turn at recorded decision points without environment replay) [[paper]](https://arxiv.org/abs/2609.33295)
 
 #### Cost and Efficiency Metrics
 Increasing focus on measuring resource consumption (tokens, time, API calls) alongside performance.
