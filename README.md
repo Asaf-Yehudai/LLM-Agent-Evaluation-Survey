@@ -273,6 +273,7 @@ Moving beyond coarse, end-to-end success metrics to more detailed, step-by-step 
 #### Cost and Efficiency Metrics
 Increasing focus on measuring resource consumption (tokens, time, API calls) alongside performance.
 *   **AI Agents That Matter:** [[paper]](https://arxiv.org/abs/2407.01502)
+*   **More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning:** [[paper]](https://arxiv.org/abs/2610.19789) [[code]](https://github.com/aim-uofa/Self-Distillation-AgentRL)
 
 #### Scaling & Automating Evaluation
 Developing methods to reduce reliance on manual annotation and enable continuous, large-scale evaluation.
