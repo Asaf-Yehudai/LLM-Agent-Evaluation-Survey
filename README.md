@@ -194,6 +194,7 @@ JARVIS or Ultron?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2505.10924)
 *   **MLGym-Bench: A New Framework and Benchmark for Advancing AI Research Agents**, arXiv 2025 [[paper]](https://arxiv.org/abs/2502.14499)
 *   **PaperBench: Evaluating AI's Ability to Replicate AI Research**, arXiv 2025 [[paper]](https://arxiv.org/abs/2504.01848)
 *   **Time to REFLECT: Can We Trust LLM Judges for Evidence-based Research Agents?**, arXiv 2026 [[paper]](https://arxiv.org/abs/2605.19196)
+*   **SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents**, arXiv 2026 [[paper]](https://arxiv.org/abs/2610.21082)
 
 
 ### :speech_balloon: Conversational Agents (§3.4)
