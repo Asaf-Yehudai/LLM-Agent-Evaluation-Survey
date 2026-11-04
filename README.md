@@ -274,6 +274,7 @@ Moving beyond coarse, end-to-end success metrics to more detailed, step-by-step 
 #### Cost and Efficiency Metrics
 Increasing focus on measuring resource consumption (tokens, time, API calls) alongside performance.
 *   **AI Agents That Matter:** [[paper]](https://arxiv.org/abs/2407.01502)
+*   **EC²-Bench (EC2-Bench)** (Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution), arXiv 2026: Scores edge–cloud collaborative agents jointly on task performance, cloud cost, and privacy exposure over 128 executable digital-workspace tasks [[paper]](https://arxiv.org/abs/2610.17816) [[code]](https://github.com/OpenBMB/EC2-Bench)
 *   **More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning:** [[paper]](https://arxiv.org/abs/2610.19789) [[code]](https://github.com/aim-uofa/Self-Distillation-AgentRL)
 
 #### Scaling & Automating Evaluation
