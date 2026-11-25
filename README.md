@@ -68,6 +68,7 @@ JARVIS or Ultron?**, arXiv 2025 [[paper]](https://arxiv.org/abs/2505.10924)
 *   **A Survey on the Memory Mechanism of Large Language Model based Agents**, arXiv 2024 [[paper]](https://arxiv.org/abs/2404.13501)
 *   **LLM Agents: A Survey**, Preprints.org 2026 [[paper]](https://www.preprints.org/manuscript/202608.0265/v1)
 *   **The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents**, SSRN 2026 [[paper]](https://ssrn.com/abstract=7186738)
+*   **Production-Oriented Evaluation and Testing of LLM-Based Agents: A Systematic Literature Review**, Information and Software Technology 2026 [[paper]](https://doi.org/10.1016/j.infsof.2026.108390)
 
 ## :wrench: Agent Capabilities Evaluation (§2)
 
